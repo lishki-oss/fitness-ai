@@ -1,0 +1,172 @@
+{
+  "common": {
+    "appName": "FitTrainer",
+    "save": "שמור",
+    "next": "הבא",
+    "back": "חזרה",
+    "cancel": "ביטול",
+    "submit": "שלח",
+    "loading": "טוען...",
+    "error": "משהו השתבש",
+    "required": "שדה חובה",
+    "optional": "אופציונלי"
+  },
+  "nav": {
+    "dashboard": "לוח בקרה",
+    "clients": "לקוחות",
+    "settings": "הגדרות",
+    "logout": "התנתק"
+  },
+  "auth": {
+    "login": "התחברות",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "loginButton": "התחבר",
+    "invalidCredentials": "אימייל או סיסמה שגויים",
+    "welcome": "ברוך שובך"
+  },
+  "dashboard": {
+    "title": "לוח בקרה",
+    "totalClients": "סה\"כ לקוחות",
+    "recentClients": "לקוחות אחרונים",
+    "noClients": "אין לקוחות עדיין. הוסף את הלקוח הראשון!",
+    "addClient": "הוסף לקוח חדש"
+  },
+  "clients": {
+    "title": "לקוחות",
+    "addNew": "לקוח חדש",
+    "noClients": "אין לקוחות עדיין",
+    "name": "שם",
+    "age": "גיל",
+    "goal": "מטרה",
+    "createdAt": "נוסף",
+    "viewDetails": "צפה בפרטים",
+    "clientDetails": "פרטי לקוח",
+    "questionnaireData": "נתוני שאלון"
+  },
+  "questionnaire": {
+    "title": "שאלון לקוח",
+    "subtitle": "מלא את שאלון הבריאות עבור הלקוח החדש",
+    "step": "שלב {current} מתוך {total}",
+    "steps": {
+      "personal": "פרטים אישיים",
+      "health": "בריאות",
+      "goals": "מטרות",
+      "habits": "הרגלי אכילה",
+      "preferences": "העדפות",
+      "summary": "סיכום"
+    },
+    "personal": {
+      "title": "פרטים אישיים",
+      "firstName": "שם פרטי",
+      "lastName": "שם משפחה",
+      "age": "גיל",
+      "gender": "מגדר",
+      "genderOptions": {
+        "male": "זכר",
+        "female": "נקבה",
+        "other": "אחר"
+      },
+      "height": "גובה (ס\"מ)",
+      "weight": "משקל (ק\"ג)",
+      "activityLevel": "רמת פעילות",
+      "activityOptions": {
+        "sedentary": "ישיבתי (מעט או ללא פעילות)",
+        "light": "קל (1-3 ימים בשבוע)",
+        "moderate": "בינוני (3-5 ימים בשבוע)",
+        "active": "פעיל (6-7 ימים בשבוע)",
+        "very_active": "פעיל מאוד (אימון אינטנסיבי יומי)"
+      }
+    },
+    "health": {
+      "title": "מידע בריאותי",
+      "conditions": "מצבים רפואיים",
+      "conditionOptions": {
+        "diabetes": "סוכרת",
+        "hypertension": "לחץ דם גבוה",
+        "heart_disease": "מחלת לב",
+        "thyroid": "בעיות בלוטת התריס",
+        "pcos": "תסמונת שחלות פוליציסטיות",
+        "ibs": "תסמונת המעי הרגיז",
+        "none": "אין"
+      },
+      "allergies": "אלרגיות",
+      "allergyOptions": {
+        "dairy": "חלב",
+        "gluten": "גלוטן",
+        "nuts": "אגוזים",
+        "eggs": "ביצים",
+        "soy": "סויה",
+        "shellfish": "פירות ים",
+        "none": "אין"
+      },
+      "medications": "תרופות נוכחיות",
+      "medicationsPlaceholder": "פרט תרופות שאתה נוטל"
+    },
+    "goals": {
+      "title": "מטרות כושר",
+      "primaryGoal": "מטרה עיקרית",
+      "goalOptions": {
+        "weight_loss": "ירידה במשקל",
+        "muscle_gain": "עלייה במסת שריר",
+        "maintenance": "שמירה על המשקל",
+        "health": "בריאות כללית",
+        "performance": "ביצועים ספורטיביים"
+      },
+      "targetWeight": "משקל יעד (ק\"ג)",
+      "timeframe": "מסגרת זמן (חודשים)",
+      "additionalGoals": "מטרות נוספות",
+      "additionalGoalsPlaceholder": "מטרות נוספות שתרצה להשיג"
+    },
+    "habits": {
+      "title": "הרגלי אכילה",
+      "mealsPerDay": "ארוחות ביום",
+      "snacksPerDay": "חטיפים ביום",
+      "waterIntake": "צריכת מים (ליטר ביום)",
+      "cookingFrequency": "תדירות בישול",
+      "cookingOptions": {
+        "daily": "יומי",
+        "few_times_week": "כמה פעמים בשבוע",
+        "rarely": "לעיתים רחוקות",
+        "never": "אף פעם"
+      },
+      "eatingOut": "תדירות אכילה בחוץ",
+      "eatingOutOptions": {
+        "daily": "יומי",
+        "few_times_week": "כמה פעמים בשבוע",
+        "weekly": "שבועי",
+        "rarely": "לעיתים רחוקות"
+      },
+      "currentDiet": "תאר את התזונה הנוכחית שלך",
+      "currentDietPlaceholder": "איך נראה יום אכילה טיפוסי?"
+    },
+    "preferences": {
+      "title": "העדפות מזון",
+      "dietaryRestrictions": "הגבלות תזונתיות",
+      "restrictionOptions": {
+        "vegetarian": "צמחוני",
+        "vegan": "טבעוני",
+        "kosher": "כשר",
+        "halal": "חלאל",
+        "gluten_free": "ללא גלוטן",
+        "lactose_free": "ללא לקטוז",
+        "none": "אין"
+      },
+      "likedFoods": "מאכלים שאתה אוהב",
+      "likedFoodsPlaceholder": "הקלד מאכל ולחץ Enter",
+      "dislikedFoods": "מאכלים שאתה לא אוהב",
+      "dislikedFoodsPlaceholder": "הקלד מאכל ולחץ Enter",
+      "notes": "הערות נוספות",
+      "notesPlaceholder": "משהו נוסף שכדאי לנו לדעת?"
+    },
+    "summary": {
+      "title": "סקירה ושליחה",
+      "subtitle": "אנא בדוק את המידע לפני השליחה",
+      "editStep": "ערוך",
+      "confirmSubmit": "אשר וצור לקוח",
+      "submitting": "יוצר לקוח...",
+      "success": "הלקוח נוצר בהצלחה!",
+      "error": "יצירת הלקוח נכשלה. אנא נסה שוב."
+    }
+  }
+}

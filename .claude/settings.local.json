@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:squidfunk.github.io)",
+      "WebFetch(domain:zensical.org)"
+    ]
+  }
+}

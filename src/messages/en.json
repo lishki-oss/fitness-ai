@@ -1,0 +1,172 @@
+{
+  "common": {
+    "appName": "FitTrainer",
+    "save": "Save",
+    "next": "Next",
+    "back": "Back",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "clients": "Clients",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "invalidCredentials": "Invalid email or password",
+    "welcome": "Welcome back"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalClients": "Total Clients",
+    "recentClients": "Recent Clients",
+    "noClients": "No clients yet. Add your first client!",
+    "addClient": "Add New Client"
+  },
+  "clients": {
+    "title": "Clients",
+    "addNew": "New Client",
+    "noClients": "No clients yet",
+    "name": "Name",
+    "age": "Age",
+    "goal": "Goal",
+    "createdAt": "Added",
+    "viewDetails": "View Details",
+    "clientDetails": "Client Details",
+    "questionnaireData": "Questionnaire Data"
+  },
+  "questionnaire": {
+    "title": "Client Questionnaire",
+    "subtitle": "Fill out the health questionnaire for the new client",
+    "step": "Step {current} of {total}",
+    "steps": {
+      "personal": "Personal Info",
+      "health": "Health",
+      "goals": "Goals",
+      "habits": "Eating Habits",
+      "preferences": "Preferences",
+      "summary": "Summary"
+    },
+    "personal": {
+      "title": "Personal Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "age": "Age",
+      "gender": "Gender",
+      "genderOptions": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "activityLevel": "Activity Level",
+      "activityOptions": {
+        "sedentary": "Sedentary (little or no exercise)",
+        "light": "Light (1-3 days/week)",
+        "moderate": "Moderate (3-5 days/week)",
+        "active": "Active (6-7 days/week)",
+        "very_active": "Very Active (intense daily)"
+      }
+    },
+    "health": {
+      "title": "Health Information",
+      "conditions": "Health Conditions",
+      "conditionOptions": {
+        "diabetes": "Diabetes",
+        "hypertension": "High Blood Pressure",
+        "heart_disease": "Heart Disease",
+        "thyroid": "Thyroid Issues",
+        "pcos": "PCOS",
+        "ibs": "IBS / Digestive Issues",
+        "none": "None"
+      },
+      "allergies": "Allergies",
+      "allergyOptions": {
+        "dairy": "Dairy",
+        "gluten": "Gluten",
+        "nuts": "Nuts",
+        "eggs": "Eggs",
+        "soy": "Soy",
+        "shellfish": "Shellfish",
+        "none": "None"
+      },
+      "medications": "Current Medications",
+      "medicationsPlaceholder": "List any medications you take"
+    },
+    "goals": {
+      "title": "Fitness Goals",
+      "primaryGoal": "Primary Goal",
+      "goalOptions": {
+        "weight_loss": "Weight Loss",
+        "muscle_gain": "Muscle Gain",
+        "maintenance": "Maintenance",
+        "health": "General Health",
+        "performance": "Athletic Performance"
+      },
+      "targetWeight": "Target Weight (kg)",
+      "timeframe": "Timeframe (months)",
+      "additionalGoals": "Additional Goals",
+      "additionalGoalsPlaceholder": "Any other goals you'd like to achieve"
+    },
+    "habits": {
+      "title": "Eating Habits",
+      "mealsPerDay": "Meals Per Day",
+      "snacksPerDay": "Snacks Per Day",
+      "waterIntake": "Water Intake (liters/day)",
+      "cookingFrequency": "Cooking Frequency",
+      "cookingOptions": {
+        "daily": "Daily",
+        "few_times_week": "A Few Times a Week",
+        "rarely": "Rarely",
+        "never": "Never"
+      },
+      "eatingOut": "Eating Out Frequency",
+      "eatingOutOptions": {
+        "daily": "Daily",
+        "few_times_week": "A Few Times a Week",
+        "weekly": "Weekly",
+        "rarely": "Rarely"
+      },
+      "currentDiet": "Describe Your Current Diet",
+      "currentDietPlaceholder": "What does a typical day of eating look like?"
+    },
+    "preferences": {
+      "title": "Food Preferences",
+      "dietaryRestrictions": "Dietary Restrictions",
+      "restrictionOptions": {
+        "vegetarian": "Vegetarian",
+        "vegan": "Vegan",
+        "kosher": "Kosher",
+        "halal": "Halal",
+        "gluten_free": "Gluten Free",
+        "lactose_free": "Lactose Free",
+        "none": "None"
+      },
+      "likedFoods": "Foods You Enjoy",
+      "likedFoodsPlaceholder": "Type a food and press Enter",
+      "dislikedFoods": "Foods You Dislike",
+      "dislikedFoodsPlaceholder": "Type a food and press Enter",
+      "notes": "Additional Notes",
+      "notesPlaceholder": "Anything else we should know?"
+    },
+    "summary": {
+      "title": "Review & Submit",
+      "subtitle": "Please review the information before submitting",
+      "editStep": "Edit",
+      "confirmSubmit": "Confirm & Create Client",
+      "submitting": "Creating client...",
+      "success": "Client created successfully!",
+      "error": "Failed to create client. Please try again."
+    }
+  }
+}
